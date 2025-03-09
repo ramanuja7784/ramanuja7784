@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickFix Mobile Repairs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="index.png" alt="QuickFix Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="saibuuuu.html">Home</a></li>
+           
+            <li><a href="models.html">Select Model</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <!-- repair.html (Repair Page) -->
+<!-- Similar header as index.html -->
+<section class="repair-form">
+    <h2>Schedule Your Repair</h2>
+    <form id="repairForm">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="device">Device Model:</label>
+            <select id="device" required>
+                <option value="">Select Device</option>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+        <button type="submit">Schedule Repair</button>
+    </form>
+</section>
+<script src="scripts.js"></script>
+</body>
+</html>
